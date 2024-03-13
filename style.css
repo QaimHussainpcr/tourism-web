@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.first{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.information{
+    width: 30%;
+    height: 710px;
+    background-color: rgba(23, 12, 40, 0.5);
+    /* filter: blur(8px); */
+    position: absolute;
+    top: 0;
+    border: 2px solid rgba(23, 12, 40, 0.5);
+    border-radius: 10px;
+}
+i{
+    font-size: 50px;
+    margin: 30px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.visit h3{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+}
+.head1{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+.visit p{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+}
+.social{
+    font-size: 20px;
+    border: none;
+    margin-top: 150px;
+}
+.heading h1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: "Madimi One", sans-serif;
+}
+.heading p{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    right: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading p:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.btn{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.btnarrow{
+    font-size: 20px;
+    border: none;
+}
+.btn:hover{
+    color: red;
+}
+.btnarrow:hover{
+    color: red;
+}
+
+/* =========================== Gallery PAge Designing ========================== */
+.nav{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    /* background-color: red; */
+}
+.nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace ;
+}
+.nav a:hover{
+    font-weight: 900;
+}
+input{
+    padding: 5px;
+    border-radius: 20px;
+    border: 1 px solid black;
+}
+.search{
+    color: black;
+    font-size: 20px;
+    padding-right: 100px;
+    border: none;
+}
+.search:hover{
+    border: none;
+}
+.second{
+    width: 100%;
+    height: 400px;
+}
+.second img{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+.galleryheading{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    border-bottom: 2px solid black;
+}
+.galleryheading h1{
+    font-weight: 600;
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.galleryheading p{
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.gallerypic{
+    position: absolute;
+    top: 110%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.gallerypic .img1{
+    width: 100%;
+    height: 480px;
+    box-shadow: 2px 2px 5px rgba(30,20,18,0.9);
+    border-radius: 20px;
+}
+.img1 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+.img1 h5{
+    text-align: center;
+    color: black;
+    background:transparent ;
+    margin-top: 20px;
+    border-radius: 20%;
+    font-weight: 900px;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+.img1 p{
+
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s ease;
+    padding: 20px;
+}
+.gallerypic .img2{
+    width: 100%;
+    height: 480px;
+    box-shadow: 2px 2px 5px rgba(30,20,18,0.9);
+    border-radius: 20px;
+}
+.img2 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+.img2 h5{
+    /* display: none; */
+    text-align: center;
+    color: black;
+    background:transparent ;
+    margin-top: 20px;
+    border-radius: 20%;
+    font-weight: 900px;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+.img2 p{
+
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s ease;
+    padding: 20px;
+}
+.gallerypic .img3{
+    width: 100%;
+    height: 480px;
+    box-shadow: 2px 2px 5px rgba(30,20,18,0.9);
+    border-radius: 20px;
+}
+.img3 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+.img3 h5{
+    /* display: none; */
+    text-align: center;
+    color: black;
+    background:transparent ;
+    margin-top: 20px;
+    border-radius: 20%;
+    font-weight: 900px;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+.img3 p{
+
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    transition: 0.5s ease;
+    padding: 20px;
+}
+.update{
+    position: absolute;
+    top: 210%;
+    left: 45%;
+    
+}
+.update h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.update p{
+    margin-left: -90px;
+    font-size: 20px;
+    
+}
+.video{
+    border-top: 2px solid black;
+    position: absolute;
+    top: 230%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+.video video{
+    width: 40%;
+    border-radius: 20px;
+}
+.text{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.text p{
+    text-align: justify;
+    width: 95%;
+    margin-top: 10px;
+}
+footer{
+    position: absolute;
+    top: 290%;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+footer h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
